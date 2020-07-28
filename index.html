@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body class="body">
+<div class="container">
+    <header class="header">
+        <a class="header-logo">
+            <img src="images/logo.png" alt="logo"/>
+        </a>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox"/>
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <div class="header-navbar menu__box">
+                <a href="#1" class="header-navbar__item menu__item">ПЕРВЫЙ ЭКРАН</a>
+                <a href="#2" class="header-navbar__item menu__item">ВСТУПЛЕНИЕ</a>
+                <a href="#3" class="header-navbar__item menu__item">ИНФОГРАФИКА</a>
+                <a href="#4" class="header-navbar__item menu__item">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
+                <a href="#5" class="header-navbar__item menu__item">КОНТАКТЫ</a>
+            </div>
+        </div>
+        <div class="header-phone">
+            <a><span class="header-phone__num">+38 (096) 622 86 13</span></a>
+            <a> <span class="header-phone__num">+38 (096) 622 86 13</span> </a>
+        </div>
+        <div class="header-lang">
+            <a><span>en |</span></a>
+            <a><span>ua |</span></a>
+            <a><span>ru</span></a>
+        </div>
+    </header>
+    <section class="home" id="1">
+        <div class="slideshow-container">
+            <div class="slideshow-inner">
+                <div class="mySlides fade">
+                    <img class="mySlides-img" src='images/photo1.png' alt="theme"/>
+                </div>
+                <div class="mySlides fade">
+                    <img class="mySlides-img" src='images/photo2.png' alt="theme"/>
+                </div>
+                <div class="mySlides fade">
+                    <img class="mySlides-img" src='images/photo3.png' alt="theme"/>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick='currentSlide(1)'></span>
+                <span class="dot" onclick='currentSlide(2)'></span>
+                <span class="dot" onclick='currentSlide(3)'></span>
+            </div>
+            <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+            <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+        </div>
+        <div class="home-entry">
+            <img class="home-entry__img" src="images/bigLogo.png" alt="logo"/>
+            <h2 class="home-entry__subtitle"><span class="home-entry__title">Frontend-разработчики</span><br/>
+                должны быть в теме всего</h2>
+            <div class="home-entry__buttons">
+                <button class="home-entry__buttons_yes">да, должны</button>
+                <button class="home-entry__buttons_ofcourse">конечно, должны</button>
+            </div>
+            <div class="home-social">
+                <div class="home-social__title">share</div>
+                <br/>
+                <a href="https://www.facebook.com/ " class="home-social__link"><img src="images/face.png"
+                                                                                    alt="facebook"/></a>
+                <a href="https://twitter.com/?lang=ru" class="home-social__link"><img src="images/twitter.png"
+                                                                                      alt="twitter"/></a>
+            </div>
+        </div>
+    </section>
+    <section class="introduction" id="2">
+        <div class="introduction-logo">
+            <img src="images/logoColored.png" alt="logo"/>
+            <h2 class="introduction-logo__title">Мысли Криса Койера</h2>
+        </div>
+        <div class="introduction-container">
+            <span class="introduction-container__text">
+                Одна из мыслей, которая поселилась в моей голове:<span class="introduction-container__text_item">должен ли frontend- разработчик быть в курсе всего?</span> <br/><br/>
+                В общем смысле, frontend-разработчик может использоваться и на других рабочих местах. Вся команда разработчиков заканчивает разговор на frontend-разработчике. В этом смысл моей идеи.<br/><br/>
+Frontend-разработчики создают те вещи, с которыми будут взаимодействовать люди. Все этапы разработки проходят вместе с frontend-разработчиком. Возможно, именно поэтому это такая забавная работа!<br/><br/>
+Поскольку frontend-разработчик занимает центральное место в цепочке разработки, и при этом мы имеем дело с большим количеством разных специалистов, мы должны понимать их работу и иногда подсказывать, что
+и как сделать лучше.
+            </span>
+            <div class="introduction-container__subtitle">
+                <span class="introduction-container__subtitle_article">Frontend-разработчик должен<br/>
+                разбираться в дизайне </span>
+            </div>
+            <span class="introduction-container__text">
+                Если frontend-разработчик не является сам по себе дизайнером, он должен знать, насколько важен дизайн. Он должен иметь хороший вкус. Он должен знать об инструментах, участвующих непосредственно в разработке.<br/><br/>
+<span class="introduction-container__text_item">Frontend-разработчик должен разбираться в работе серверной части (backend) </span><br/><br/>
+Даже если вы и не backend-разработчик, то вы явно осознаёте всю важность серверной части. Вы понимаете, с чем взаимодействует backend, что передается на сервер, а что нет. Вы знаете об обязанностях backend-разработчика. Вы понимаете, какой язык используется на сервере, и при этом должны уметь объяснить, что должен дать вам backend и что нужно от серверной части frontend-а.<br/><br/>
+<span class="introduction-container__text_item">Frontend-разработчик должен разбираться в работе сетей</span><br/><br/>
+Frontend-разработчик понимает, что сайты располагаются в интернете, данные передаются по сети, и что сеть — это дикое и непредсказуемое. Необходимо понимать, какие бывают сети, как они работают, и насколько они бывают быстрые и надежные.
+            </span>
+        </div>
+        <div class="introduction-social">
+            <div class="introduction-social__title">share</div>
+            <br/>
+            <a href="https://www.facebook.com/ " class="introduction-social__link"><img src="images/face.png"
+                                                                                        alt="facebook"/></a>
+            <a href="https://twitter.com/?lang=ru" class="introduction-social__link"><img src="images/twitter.png"
+                                                                                          alt="twitter"/></a>
+        </div>
+    </section>
+    <section class="infographics" id="3">
+        <div class="infographics-containers">
+            <div class="infographics-container">
+                <img src="images/html.png" alt="html"/>
+                <div class="infographics-container__title">
+                    <div class="infographics-container__title_sub">1</div>
+                    <span class="infographics-container__title_text"><span
+                            class="infographics-container__title_text--item">html</span><br/>HyperText Markup
+        Language</span>
+                </div>
+            </div>
+            <div class="infographics-container">
+                <img src="images/css.png" style="width: 99%;" alt="css"/>
+                <div class="infographics-container__title">
+                    <div class="infographics-container__title_sub">2</div>
+                    <span class="infographics-container__title_text"><span
+                            class="infographics-container__title_text--item">css</span><br/>Cascading Style
+Sheets</span>
+                </div>
+            </div>
+            <div class="infographics-container">
+                <img src="images/js.png" style="width: 108%;" alt="js"/>
+                <div class="infographics-container__title">
+                    <div class="infographics-container__title_sub">3</div>
+                    <span class="infographics-container__title_text"><span
+                            class="infographics-container__title_text--item">js</span><br/>JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="performance" id="4">
+        <div class="performance-title">
+            <span class="performance-title__text">Frontend-разработчик должен разбираться<br/> в производительности</span>
+        </div>
+        <div class="performance-matter">
+            <div class="performance-matter__theme1">
+                <img class="performance-matter__theme1_img" src="images/performanceTheme1.png" alt="theme"/>
+            </div>
+            <div class="performance-matter__subtitle"><span class="performance-matter__subtitle_item">Performance Matters</span>
+            </div>
+            <div class="performance-matter__text">
+                <span class="performance-matter__text_item">производительность
+                имеет важное место
+                в успехе вашего проекта </span>
+            </div>
+            <div class="performance-matter__button">
+                <button class="performance-matter__button_item">подробнее</button>
+            </div>
+        </div>
+        <div class="performance-thin">
+            <div class="performance-thin__theme2">
+                <img class="performance-thin__theme2_img" src="images/performanceTheme2.png" alt="theme"/>
+            </div>
+            <div class="performance-thin__subtitle"><span class="performance-thin__subtitle_item">Тонкости</span>
+            </div>
+            <div class="performance-thin__text">
+                Необходимо понимать
+                насколько быстрым
+                должен быть backend
+            </div>
+            <div class="performance-thin__button">
+                <button class="performance-thin__button_item">подробнее</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="5">
+        <div class="contact-shadow">
+            <div class="contact-container">
+                <span class="contact-container__title">контакты</span>
+                <div class="contact-container__address">
+                <span class="contact-container__address_item"><img class="contact-container__address_item--img"
+                                                                   src="images/location.png" alt="location"/>18000, Украина, г. Черкассы,<br/>
+                ул. Героев Сталинграда 42/1</span>
+                    <span class="contact-container__address_item"><img class="contact-container__address_item--img"
+                                                                       src="images/phone.png" alt="phone"/>+38 (096) 622 86 13<br/>
+                +38 (096) 622 86 13</span>
+                    <span class="contact-container__address_item"><img class="contact-container__address_item--img2"
+                                                                       src="images/mail.png" alt="mail"/>web@rubarbs.com</span>
+                    <a href="https://rubarbs.com/en" class="contact-container__address_item"><img
+                            class="contact-container__address_item--img2" src="images/world.png"
+                            alt="world"/>rubarbs.com</a>
+                </div>
+            </div>
+            <div class="contact-us">
+                <span class="contact-container__title">напишите нам</span>
+                <form class="contact-us__form">
+                    <div class="contact-us__form_container">
+                        <input class="contact-us__form_item" type="text" placeholder="имя"/>
+                        <input class="contact-us__form_item" type="tel" placeholder="телефон"/>
+                        <input class="contact-us__form_item" type="email" placeholder="email"/>
+                    </div>
+                    <textarea class="contact-us__form_area" placeholder="сообщение"></textarea>
+                    <div class="contact-us__form_button">
+                        <button class="contact-us__form_button__item">отправить</button>
+                        <div class="contact-us__form_thanks">Спасибо за сообщение!<br/>
+                            Мы обязательно свяжемся с Вами.
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <img class="footer-container__logo" src="images/logoColored.png" alt="logo"/>
+            <div class="footer-container__socials">
+                <a href="https://www.youtube.com/"><img class="footer-container__socials_item" src="images/youtube.png"
+                                                        alt="youtube"/></a>
+                <a href="https://www.facebook.com/"><img class="footer-container__socials_item"
+                                                         src="images/facebook.png" alt="facebook"/></a>
+                <a href="https://twitter.com/?lang=ru"><img class="footer-container__socials_item" src="images/twit.png"
+                                                            alt="twit"/></a>
+            </div>
+            <p class="footer-container__description">© 2017 «Frontend» | сайт разработан в <a
+                    href="https://rubarbs.com/en" class="footer-container__description_link">Rubarb digital</a></p>
+        </div>
+    </section>
+</div>
+</body>
+</html>
